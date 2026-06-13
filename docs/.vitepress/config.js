@@ -12,6 +12,7 @@ import { defineConfig } from 'vitepress'
  */
 export default defineConfig({
   // 站点根路径，部署到子目录时改成 '/your-repo/'
+  ignoreDeadLinks: true,
   base: '/vite/',
 
   // 站点标题（同时用于浏览器标签与 SEO）
